@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroresModule } from './heroes/heroes.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HeroresModule, ContadorModule],
+  imports: [BrowserModule, HeroresModule, ContadorModule, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
 })
